@@ -1,0 +1,154 @@
+
+li {
+    list-style-type: none;
+    
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.header_content {
+    
+    max-width: 1450px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    font-family:'Courier New', Courier, monospace;
+
+}
+
+.header {
+    
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+
+.logo {
+    font-size: 36px;
+    margin-left: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-family:monospace;
+    
+}
+
+.container {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: monospace;
+    font-size: 18px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    
+}
+
+h1 {
+    text-align: center;
+    font-size: 26px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 24px;
+}
+
+
+h3 {
+    text-align: center;
+}
+
+.patent_i {
+    display: block;
+    font-style: italic;
+    
+}
+
+.patent_name {
+    display: block;
+    text-align: center;
+    font-size: 22px;
+}
+
+
+.footer {
+    padding-bottom: 16px;
+    padding-top: 16px;
+    padding-left: 64px;
+    padding-right: 64px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    
+    flex-wrap: wrap;
+
+}
+
+.coment {
+    font-style: italic;
+}
+
+.patent {
+  
+    font-weight: 600;
+
+}
+
+.paten_ap {
+    font-size: 20px;
+}
+
+img {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    box-shadow: 0px -5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.link_pdf {
+    font-style: italic;
+    color: rgb(117, 117, 117);
+}
+.link_pdf_model {
+    font-style: italic;
+    color: rgb(117, 117, 117);
+}
+
+.youtube {
+    font-size: 22px;
+    
+}
+
+b {
+    font-weight: inherit;
+}
+strong {
+    font-weight: inherit;
+}
+
+
+
+
+@media (max-width: 650px) {
+    .footer {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .year {
+        order: 1;
+    }
+
+    
+}
